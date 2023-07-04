@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main {
+    width: 28%;
+    min-height: 300px;
+    height: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 2px 4px 6px 6px rgba(1, 1, 53, 0.5);
+    text-align: center;
+  }
+  input {
+    width: 250px;
+    height: 30px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 5px;
+    margin-top: 20px;
+    padding: 5px;
+  }
+  .buttt {
+    width: 60px;
+    height: 30px;
+    outline: none;
+    padding: 5px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    border: 1px solid blue;
+    margin-bottom: 15px;
+  }
+  h1 {
+    width: 85%;
+    height: 40px;
+    margin: auto;
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: lightblue;
+    margin-bottom: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  p {
+    width: 70%;
+    margin-left: 10px;
+    /* margin-left: 5px; */
+    /* border: 1px solid black; */
+    text-align: left;
+  }
+  section {
+    width: 25%;
+    height: 90%;
+    /* border: 1px solid blue; */
+    text-align: right;
+  }
+  section button {
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    color: #fff;
+    border: 1px solid blue;
+    border-radius: 5px;
+    /* font-weight: 800; */
+  }
